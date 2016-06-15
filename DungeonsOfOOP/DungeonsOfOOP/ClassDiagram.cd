@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DungeonsOfOOP.DataStorage.DataAccessor" Collapsed="true">
+    <Position X="13.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStorage\DataAccessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonsOfOOP.GameSupport.CustomException" Collapsed="true">
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameSupport\CustomException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonsOfOOP.MainGame" Collapsed="true">
+    <Position X="9.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>MainGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonsOfOOP.Models.Bonus" Collapsed="true">
+    <Position X="9.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Bonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonsOfOOP.Models.Container" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Container.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonsOfOOP.Models.Enemy" Collapsed="true">
+    <Position X="5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonsOfOOP.Models.GameObject" Collapsed="true">
+    <Position X="3.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAgAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonsOfOOP.Models.Human" Collapsed="true">
+    <Position X="6" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Human.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DungeonsOfOOP.Models.Player" Collapsed="true">
+    <Position X="7.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonsOfOOP.Models.Room" Collapsed="true">
+    <Position X="2.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonsOfOOP.Models.Score" Collapsed="true">
+    <Position X="13.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Score.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonsOfOOP.Models.Trap" Collapsed="true">
+    <Position X="9.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Trap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DungeonsOfOOP.Views.Renderer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Renderer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="DungeonsOfOOP.GameSupport.Point" Collapsed="true">
+    <Position X="9.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>GameSupport\Point.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="DungeonsOfOOP.Interfaces.ICanDie" Collapsed="true">
+    <Position X="9.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICanDie.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DungeonsOfOOP.Interfaces.ICanDraw" Collapsed="true">
+    <Position X="11.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICanDraw.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DungeonsOfOOP.Interfaces.ICanFight" Collapsed="true">
+    <Position X="13.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICanFight.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DungeonsOfOOP.Interfaces.ICanMove" Collapsed="true">
+    <Position X="9.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICanMove.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DungeonsOfOOP.Interfaces.ICanWin" Collapsed="true">
+    <Position X="11.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICanWin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
