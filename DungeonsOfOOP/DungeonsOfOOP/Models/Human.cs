@@ -2,7 +2,7 @@
 {
     using Interfaces;
 
-    public class Human : GameObject, ICanMove, ICanFight, ICanDie, ICanWin
+    public class Human : GameObject, IMovable, IFighter, IPlayer, IWinner
     {
 
     }

@@ -1,6 +1,6 @@
 ﻿namespace DungeonsOfOOP.Interfaces
 {
-    public interface ICanDie
+    public interface IPlayer
     {
 
     }

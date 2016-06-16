@@ -42,13 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataStorage\DataAccessor.cs" />
-    <Compile Include="GameSupport\CustomException.cs" />
-    <Compile Include="Interfaces\ICanDie.cs" />
-    <Compile Include="Interfaces\ICanDraw.cs" />
-    <Compile Include="Interfaces\ICanFight.cs" />
-    <Compile Include="Interfaces\ICanMove.cs" />
-    <Compile Include="Interfaces\ICanWin.cs" />
+    <Compile Include="Enums\Directions.cs" />
+    <Compile Include="Models\DataAccessor.cs" />
+    <Compile Include="Exceptions\CustomException.cs" />
+    <Compile Include="Interfaces\IPlayer.cs" />
+    <Compile Include="Interfaces\IDrawable.cs" />
+    <Compile Include="Interfaces\IFighter.cs" />
+    <Compile Include="Interfaces\IMovable.cs" />
+    <Compile Include="Interfaces\IWinner.cs" />
     <Compile Include="MainGame.cs" />
     <Compile Include="Models\Bonus.cs" />
     <Compile Include="Models\Container.cs" />
@@ -56,7 +57,9 @@
     <Compile Include="Models\GameObject.cs" />
     <Compile Include="Models\Human.cs" />
     <Compile Include="Models\Player.cs" />
-    <Compile Include="GameSupport\Point.cs" />
+    <Compile Include="Structures\Position.cs" />
+    <Compile Include="Models\Playground.cs" />
+    <Compile Include="Models\Quiz.cs" />
     <Compile Include="Models\Room.cs" />
     <Compile Include="Models\Score.cs" />
     <Compile Include="Models\Trap.cs" />
@@ -69,6 +72,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataStorage\HighScore.xml" />
+    <Content Include="DataStorage\Questions.txt" />
+    <Content Include="Resources\Audio\click.wav" />
+    <Content Include="Resources\Audio\highscoreChange.wav" />
+    <Content Include="Resources\Audio\taDa.wav" />
+    <Content Include="Resources\Images\cuki.png" />
+    <Content Include="Resources\Images\doncho.png" />
+    <Content Include="Resources\Images\koceto.png" />
+    <Content Include="Resources\Images\vesheff.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

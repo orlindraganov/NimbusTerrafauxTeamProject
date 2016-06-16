@@ -1,6 +1,6 @@
 ﻿namespace DungeonsOfOOP.Interfaces
 {
-    public interface ICanMove
+    public interface IWinner
     {
 
     }

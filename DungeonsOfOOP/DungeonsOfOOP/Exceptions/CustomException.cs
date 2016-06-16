@@ -1,4 +1,4 @@
-﻿namespace DungeonsOfOOP.GameSupport
+﻿namespace DungeonsOfOOP.Exceptions
 {
     public static class CustomException
     {

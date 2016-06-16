@@ -1,8 +1,8 @@
-﻿namespace DungeonsOfOOP.GameSupport
+﻿namespace DungeonsOfOOP.Structures
 {
-    public struct Point
+    public struct Position
     {
-        public Point(int x, int y) : this()
+        public Position(int x, int y) : this()
         {
             this.X = x;
             this.Y = y;

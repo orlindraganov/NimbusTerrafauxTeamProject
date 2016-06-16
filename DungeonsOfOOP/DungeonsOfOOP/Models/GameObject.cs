@@ -1,9 +1,9 @@
 ﻿namespace DungeonsOfOOP.Models
 {
-    using GameSupport;
+    using Structures;
     public class GameObject
     {
-        public Point Position { get; set; }
+        public Position Position { get; set; }
 
         public int Size { get; set; }
 

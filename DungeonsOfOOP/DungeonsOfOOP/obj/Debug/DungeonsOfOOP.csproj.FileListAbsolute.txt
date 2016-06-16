@@ -1,1 +1,7 @@
 C:\Users\Satanaso\Documents\GitHub\Object-Oriented-Programming\Teamwork\NimbusTerrafauxTeam\DungeonsOfOOP\DungeonsOfOOP\bin\Debug\DungeonsOfOOP.exe.config
+C:\Users\Satanaso\Documents\GitHub\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\bin\Debug\DungeonsOfOOP.exe.config
+C:\Users\Satanaso\Documents\GitHub\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\bin\Debug\DungeonsOfOOP.exe
+C:\Users\Satanaso\Documents\GitHub\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\bin\Debug\DungeonsOfOOP.pdb
+C:\Users\Satanaso\Documents\GitHub\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\obj\Debug\DungeonsOfOOP.csprojResolveAssemblyReference.cache
+C:\Users\Satanaso\Documents\GitHub\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\obj\Debug\DungeonsOfOOP.exe
+C:\Users\Satanaso\Documents\GitHub\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\obj\Debug\DungeonsOfOOP.pdb

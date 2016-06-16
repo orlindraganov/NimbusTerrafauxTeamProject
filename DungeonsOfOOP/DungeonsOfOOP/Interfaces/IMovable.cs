@@ -1,6 +1,6 @@
 ﻿namespace DungeonsOfOOP.Interfaces
 {
-    public interface ICanFight
+    public interface IMovable
     {
 
     }
