@@ -5,3 +5,9 @@ C:\Users\Satanaso\Documents\GitHub\NimbusTerrafauxTeamProject\DungeonsOfOOP\Dung
 C:\Users\Satanaso\Documents\GitHub\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\obj\Debug\DungeonsOfOOP.csprojResolveAssemblyReference.cache
 C:\Users\Satanaso\Documents\GitHub\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\obj\Debug\DungeonsOfOOP.exe
 C:\Users\Satanaso\Documents\GitHub\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\obj\Debug\DungeonsOfOOP.pdb
+D:\Orlinovski Tapotii\NIMBUS TERRAFAUX\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\bin\Debug\DungeonsOfOOP.exe.config
+D:\Orlinovski Tapotii\NIMBUS TERRAFAUX\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\obj\Debug\DungeonsOfOOP.exe
+D:\Orlinovski Tapotii\NIMBUS TERRAFAUX\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\obj\Debug\DungeonsOfOOP.pdb
+D:\Orlinovski Tapotii\NIMBUS TERRAFAUX\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\bin\Debug\DungeonsOfOOP.exe
+D:\Orlinovski Tapotii\NIMBUS TERRAFAUX\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\bin\Debug\DungeonsOfOOP.pdb
+D:\Orlinovski Tapotii\NIMBUS TERRAFAUX\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\obj\Debug\DungeonsOfOOP.csprojResolveAssemblyReference.cache
