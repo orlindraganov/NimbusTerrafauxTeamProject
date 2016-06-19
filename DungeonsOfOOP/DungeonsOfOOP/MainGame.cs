@@ -18,20 +18,31 @@ namespace DungeonsOfOOP
     class MainGame
     {
         public static Renderer Renderer = new Renderer();
-        
+
         static void Main(string[] args)
         {
-            int questionIndex = 0;
+            //Opening here to test with random
+            //Also included in Quiz.cs, to be cleaned up but first advicing with teammembers && having a nice evening with friends.
+            var questionsDoc = new XmlDocument();
+            questionsDoc.Load("./../../DataStorage/Questions.xml");
+            XmlNodeList questions = questionsDoc.GetElementsByTagName("question");
+            //questions should be one and only throughout the game to avoid repeating questions. 
+            var random = new Random();
 
-            if (Quiz.AskQuestion(questionIndex))
+            while (true)
             {
-                Console.WriteLine("True");
+                var questionIndex = random.Next(questions.Count - 1);
+                if (Quiz.AskQuestion(questionIndex, questions))
+                {
+                    Console.WriteLine("True");
+                    questions[questionIndex].ParentNode.RemoveChild(questions[questionIndex]);
+                }
+                else
+                {
+                    Console.WriteLine("False");
+                    questions[questionIndex].ParentNode.RemoveChild(questions[questionIndex]);
+                }
             }
-            else
-            {
-                Console.WriteLine("False");
-            }
-
             //Draw images
             Renderer.SetConsoleProperties();
             Renderer.SetPictureAtPosition("doncho", new Position(10, 40));

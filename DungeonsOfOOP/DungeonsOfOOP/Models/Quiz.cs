@@ -9,6 +9,26 @@ namespace DungeonsOfOOP.Models
 
     public static class Quiz
     {
+        public static bool AskQuestion(int questionIndex, XmlNodeList questions)
+        {
+            questionIndex = NormaliseQuestionIndex(questionIndex, questions);
+            int correctAnswer = WriteQuestion(questions[questionIndex]);
+            bool isValidAnswer = false;
+            while (!isValidAnswer)
+            {
+                try
+                {
+                    return CheckAnswer(correctAnswer, questions[questionIndex].ChildNodes.Count);
+                }
+                catch (ArgumentException invalidInput)
+                {
+                    Console.WriteLine(invalidInput.Message);
+                }
+            }
+            //inaccessible due try-catch in while but incompilable without:
+            return false;
+        }
+
         //Orlin: Access modifiers?
         private static int NormaliseQuestionIndex(int questionIndex, XmlNodeList questions)
         {
@@ -70,25 +90,6 @@ namespace DungeonsOfOOP.Models
                 return false;
             }
         }
-        public static bool AskQuestion(int questionIndex)
-        {
-            var questions = GetQuestions(@"./../../DataStorage/Questions.xml");
-            questionIndex = NormaliseQuestionIndex(questionIndex, questions);
-            int correctAnswer = WriteQuestion(questions[questionIndex]);
-            bool isValidAnswer = false;
-            while (!isValidAnswer)
-            {
-                try
-                {
-                    return CheckAnswer(correctAnswer, questions[questionIndex].ChildNodes.Count);
-                }
-                catch (ArgumentException invalidInput)
-                {
-                    Console.WriteLine(invalidInput.Message);
-                }
-            }
-            //inaccessible due try-catch in while but incompilable without
-            return false;
-        }
+
     }
 }
