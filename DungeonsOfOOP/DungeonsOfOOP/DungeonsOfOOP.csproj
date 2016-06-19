@@ -57,6 +57,7 @@
     <Compile Include="Models\GameObject.cs" />
     <Compile Include="Models\Human.cs" />
     <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\Questionnaire.cs" />
     <Compile Include="Structures\Position.cs" />
     <Compile Include="Models\Playground.cs" />
     <Compile Include="Models\Quiz.cs" />

@@ -40,14 +40,6 @@ namespace DungeonsOfOOP.Models
             return questionIndex;
         }
 
-        private static XmlNodeList GetQuestions(string address)
-        {
-            var reader = new XmlDocument();
-            reader.Load(address);
-            XmlNodeList questions = reader.GetElementsByTagName("question");
-            return questions;
-        }
-
         private static int WriteQuestion(XmlNode question)
         {
             //Writes question + answers on console, returns correct answer index (1 based)
@@ -76,9 +68,9 @@ namespace DungeonsOfOOP.Models
         {
             var givenAnswer = -1;
             var userInput = Console.ReadLine();
-            if (userInput == "Gosho")
+            if (userInput.ToLower() == "gosho")
             {
-                throw new ArgumentException("Alas! How can Gosho be an illegal input? Quis custodiet ipsos custodes?");
+                throw new ArgumentException($"Alas! How can {userInput} be an illegal input? Quis custodiet ipsos custodes?");
             }
             bool isInt = int.TryParse(userInput, out givenAnswer);
             if (!isInt || givenAnswer > answersCount || givenAnswer < 1)
