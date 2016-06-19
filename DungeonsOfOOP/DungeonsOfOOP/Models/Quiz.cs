@@ -76,6 +76,10 @@ namespace DungeonsOfOOP.Models
         {
             var givenAnswer = -1;
             var userInput = Console.ReadLine();
+            if (userInput == "Gosho")
+            {
+                throw new ArgumentException("Alas! How can Gosho be an illegal input? Quis custodiet ipsos custodes?");
+            }
             bool isInt = int.TryParse(userInput, out givenAnswer);
             if (!isInt || givenAnswer > answersCount || givenAnswer < 1)
             {
