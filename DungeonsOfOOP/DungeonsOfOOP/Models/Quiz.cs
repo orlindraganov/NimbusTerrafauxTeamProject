@@ -11,7 +11,6 @@ namespace DungeonsOfOOP.Models
     {
         public static bool AskQuestion(int questionIndex, XmlNodeList questions)
         {
-            questionIndex = NormaliseQuestionIndex(questionIndex, questions);
             int correctAnswer = WriteQuestion(questions[questionIndex]);
             bool isValidAnswer = false;
             while (!isValidAnswer)
@@ -22,7 +21,7 @@ namespace DungeonsOfOOP.Models
                 }
                 catch (ArgumentException invalidInput)
                 {
-                    Console.WriteLine(invalidInput.Message);
+                    Console.WriteLine(invalidInput.Message.ToString());
                 }
             }
             //inaccessible due try-catch in while but incompilable without:
@@ -30,15 +29,6 @@ namespace DungeonsOfOOP.Models
         }
 
         //Orlin: Access modifiers?
-        private static int NormaliseQuestionIndex(int questionIndex, XmlNodeList questions)
-        {
-            var maxIndex = questions.Count - 1;
-            if (questionIndex > maxIndex)
-            {
-                questionIndex = questionIndex % maxIndex;
-            }
-            return questionIndex;
-        }
 
         private static int WriteQuestion(XmlNode question)
         {
@@ -86,6 +76,5 @@ namespace DungeonsOfOOP.Models
                 return false;
             }
         }
-
     }
 }

@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\Validator.cs" />
     <Compile Include="Enums\Directions.cs" />
+    <Compile Include="Models\Answer.cs" />
     <Compile Include="Models\DataAccessor.cs" />
     <Compile Include="Exceptions\CustomException.cs" />
     <Compile Include="Interfaces\IPlayer.cs" />
@@ -57,6 +59,7 @@
     <Compile Include="Models\GameObject.cs" />
     <Compile Include="Models\Human.cs" />
     <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\Question.cs" />
     <Compile Include="Models\Questionnaire.cs" />
     <Compile Include="Structures\Position.cs" />
     <Compile Include="Models\Playground.cs" />
@@ -76,7 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DataStorage\HighScore.xml" />
-    <Content Include="DataStorage\Questions.txt" />
+    <Content Include="DataStorage\Questions.xml" />
     <Content Include="Resources\Audio\click.wav" />
     <Content Include="Resources\Audio\highscoreChange.wav" />
     <Content Include="Resources\Audio\taDa.wav" />

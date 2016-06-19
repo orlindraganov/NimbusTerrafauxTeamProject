@@ -1,22 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml;
+﻿using System.Xml;
 
 namespace DungeonsOfOOP.Models
 {
     public static class Questionnaire
     {
-        private static XmlNodeList GetQuestions(string address)
+        private const string QuestionsFileName = "./../../DataStorage/Questions.xml";
+        private const string QuestionTagName = "question";
+
+        public static XmlNodeList GetQuestions()
         {
             var reader = new XmlDocument();
-            reader.Load(address);
-            XmlNodeList questions = reader.GetElementsByTagName("question");
+            reader.Load(QuestionsFileName);
+            XmlNodeList questions = reader.GetElementsByTagName(QuestionTagName);
             return questions;
         }
-
-        public static XmlNodeList questions = GetQuestions("./../../DataStorage/Questions.xml");
     }
 }

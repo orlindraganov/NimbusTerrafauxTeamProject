@@ -258,4 +258,10 @@
         <answer correct="false" text="ToUInt32"></answer>
         <answer correct="false" text="ToUInt64"></answer>
     </question>
+    <question text="Which of the following is correct about variable naming conventions in C#?">
+        <answer correct="false" text="It should not be a C# keyword."></answer>
+        <answer correct="false" text="It must not contain any embedded space or symbol such as? - + ! @ # % ^ * ( ) [ ] { }"></answer>
+        <answer correct="false" text="Both of the above."></answer>
+        <answer correct="false" text="None of the above."></answer>
+    </question>
 </exam>
