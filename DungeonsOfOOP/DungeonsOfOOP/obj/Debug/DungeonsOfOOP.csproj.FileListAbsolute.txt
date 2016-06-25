@@ -11,3 +11,9 @@ D:\Orlinovski Tapotii\NIMBUS TERRAFAUX\NimbusTerrafauxTeamProject\DungeonsOfOOP\
 D:\Orlinovski Tapotii\NIMBUS TERRAFAUX\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\bin\Debug\DungeonsOfOOP.exe
 D:\Orlinovski Tapotii\NIMBUS TERRAFAUX\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\bin\Debug\DungeonsOfOOP.pdb
 D:\Orlinovski Tapotii\NIMBUS TERRAFAUX\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\obj\Debug\DungeonsOfOOP.csprojResolveAssemblyReference.cache
+C:\Orlin\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\bin\Debug\DungeonsOfOOP.exe.config
+C:\Orlin\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\obj\Debug\DungeonsOfOOP.exe
+C:\Orlin\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\obj\Debug\DungeonsOfOOP.pdb
+C:\Orlin\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\bin\Debug\DungeonsOfOOP.exe
+C:\Orlin\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\bin\Debug\DungeonsOfOOP.pdb
+C:\Orlin\NimbusTerrafauxTeamProject\DungeonsOfOOP\DungeonsOfOOP\obj\Debug\DungeonsOfOOP.csprojResolveAssemblyReference.cache

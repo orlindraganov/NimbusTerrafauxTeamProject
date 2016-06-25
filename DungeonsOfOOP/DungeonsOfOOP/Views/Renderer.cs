@@ -14,7 +14,7 @@ namespace DungeonsOfOOP.Views
 
         public void DrawAtPosition(Position position, object obj)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public void SetPictureAtPosition(string name, Position pos)

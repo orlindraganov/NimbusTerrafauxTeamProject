@@ -38,6 +38,7 @@ namespace DungeonsOfOOP
             //        Questionnaire.questions[questionIndex].ParentNode.RemoveChild(Questionnaire.questions[questionIndex]);
             //    }
             //}
+
             //Draw images
             Renderer.SetConsoleProperties();
             Renderer.SetPictureAtPosition("doncho", new Position(10, 40));
